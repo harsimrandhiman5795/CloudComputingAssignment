@@ -64,7 +64,7 @@ export default class Login extends React.Component {
                     <Form onSubmit={this.onSubmit}>
                         <Form.Group controlId="formBasicEmail">
                             <Form.Label>Email address</Form.Label>
-                            <Form.Control type="text" required placeholder="Enter email" onChange={this.idChange} value={idValue} style={{ width: '300px' }} />
+                            <Form.Control type="email" required placeholder="Enter email" onChange={this.idChange} value={idValue} style={{ width: '300px' }} />
                         </Form.Group>
 
                         <Form.Group controlId="formBasicPassword">
